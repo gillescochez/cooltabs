@@ -1,0 +1,40 @@
+body {
+	background:#f4f4f4;
+	font-family:"Courier New", arial;
+	font-size:12px;
+	color:#333;
+}
+h1, h2 {
+	margin-bottom:5px;
+	padding-bottom:5px;
+	border-bottom:1px dotted #999;
+	font-weight:bold;
+	font-size:1.1em;
+}
+h1:before {
+	content:':: ';
+}
+h2 {
+	font-size:1em;
+}
+#wrap {
+	border:1px solid #ccc;
+	margin:10px auto;
+	background:#fff;
+	padding:10px;
+	width:820px;
+}
+	#wrap div.box {
+		border:1px solid #ccc;
+		padding:10px;
+	}
+	#wrap div.right {
+		text-align:right;
+	}
+#intro {
+	background:#f4f4f4;
+	margin-bottom:10px;
+}
+	#intro p {
+		margin-bottom:10px;
+	}

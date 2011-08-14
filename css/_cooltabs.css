@@ -1,0 +1,90 @@
+div.cooltabs {
+	overflow:hidden;
+	position:relative;	
+}
+	div.cooltabs h3 {
+		margin-top:20px;
+		padding:10px 0;
+		font-weight:bold;
+		font-size:16px;
+		clear:both;
+	}
+	div.cooltabs-wrap {
+		position:relative;
+	}
+		div.cooltabs-wrap ul {			
+			position:relative;
+			z-index:999;
+		}
+		div.cooltabs-wrap ul li {
+			white-space:nowrap;
+			margin-right:45px;
+			font-size:12px;
+			cursor:pointer;
+			color:#fff;
+		}
+			div.cooltabs-wrap ul li.cooltabs-active {
+				color:#333;
+			}
+				div.cooltabs-wrap ul li span.cooltabs-on {
+					color:#333;
+				}
+				div.cooltabs-wrap ul li span.cooltabs-off {
+					color:#fff;
+				}
+		div.cooltabs-wrap div, div.cooltabs-wrap ul, div.cooltabs-wrap ul li {
+			float:left;
+		}
+		div.cooltabs-clear {
+			clear:both;
+		}
+		div.cooltabs-content-wrap {
+			position:absolute;
+			top:0;
+		}
+		div.cooltabs-content {
+			text-align:justify;
+			padding-left:5px;
+		}
+			div.cooltabs-content  p {
+				margin: 0 0 10px 0;
+			}
+		div.cooltabs-arrow {
+			background:url(../img/tab_arrow.gif) no-repeat center bottom;
+			height:34px;
+			width:100%;
+		}
+		div.cooltabs-left {
+			background:url(../img/box_left.jpg) no-repeat;
+			padding-right:15px;
+			height:35px;
+		}
+		div.cooltabs-middle {
+			background:url(../img/box_middle.jpg) repeat-x;
+			padding:11.5px 8px;
+		}
+		div.cooltabs-right {
+			background:url(../img/box_right.jpg) no-repeat top right;
+			padding-right:15px;
+			height:35px;
+		}
+		div.cooltabs-tab {
+			position:absolute;	
+			z-index:998;
+			left:10px;
+			top:5px;
+		}
+		div.cooltabs-tab-left {
+			background:url(../img/tab_left.png) no-repeat;
+			padding-right:10px;
+			height:35px;
+		}
+		div.cooltabs-tab-middle {
+			background:url(../img/tab_middle.png) repeat-x;
+			padding-right:5px;
+		}
+		div.cooltabs-tab-right {
+			background:url(../img/tab_right.png) no-repeat top right;
+			padding-right:10px;
+			height:35px;
+		}
